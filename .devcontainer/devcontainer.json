@@ -1,0 +1,15 @@
+{
+  "name": "ACME Lab Environment",
+  "image": "ghcr.io/byu-acme/base-lab-env:2025.26",
+  "workspaceFolder": "/workspaces",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}
